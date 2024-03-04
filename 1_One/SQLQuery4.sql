@@ -1,0 +1,18 @@
+CREATE DATABASE SportsStore;
+GO
+
+USE SportsStore;
+
+CREATE TABLE Store(
+id_store INT PRIMARY KEY IDENTITY,
+address VARCHAR(100)
+)
+CREATE TABLE Users(
+id_user INT PRIMARY KEY IDENTITY,
+email VARCHAR(100),
+password VARCHAR(50)
+)
+
+INSERT INTO Store
+VALUES('32f');
+
